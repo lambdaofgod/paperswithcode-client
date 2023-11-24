@@ -22,9 +22,9 @@ setup(
     platforms=["Windows", "POSIX", "MacOSX"],
     license="Apache-2.0",
     packages=find_packages(),
-    install_requires=io.open("requirements.txt").read().splitlines(),
-    entry_points="""
-        [console_scripts]
-        pwc=paperswithcode.__main__:app
-    """,
+    # install_requires=io.open("requirements.txt").read().splitlines(),
+    # entry_points="""
+    #     [console_scripts]
+    #     pwc=paperswithcode.__main__:app
+    # """,
 )
